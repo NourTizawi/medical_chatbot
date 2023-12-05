@@ -1,0 +1,382 @@
+{
+    "intents": [
+
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there",
+                "Hey",
+                "Hola",
+                "Hello"
+            ],
+            "responses": [
+                "Hello",
+                "hi ",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Till next time",
+                "bbye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me",
+                "What can  you do",
+                "What help you provide",
+                "What support is offered",
+                "who are you",
+                "what is your name"
+              
+                
+            ],
+            "responses": [
+                "I am a medical chatbot.I am designed to provide you with medical information and assistance! "
+            ]
+        },
+        {
+            "tag": "Accute Branchitis",
+            "patterns": [
+                "branchitis",
+                "Wheezing",
+                "feeling short of breath",
+                "blocked nose",
+                "fever",
+                "coughing"
+            ],
+            "responses": [
+                "those are the symptoms of Accute Bronchitis ,it feels like you can’t stop coughing.",
+                "You probably started the branchitis with a dry cough that soon became mucus-producing. You may also have aches and pains, chills, headache, runny nose, sore throat, shortness of breath, watery eyes and wheezing.",
+                "it seems like you have a bronchitis,it lasts about two weeks for most symptoms, though the cough can linger for a couple of months."
+            ]
+        },
+        {
+            "tag": "COVID",
+            "patterns": [
+                "loss of taste",
+                "loss of smell",
+                "loss of taste and smell",
+                "headache",
+                "diarrhea",
+                "fatigue",
+                "coughing",
+                "covid"
+            ],
+            "responses": [
+                "Influenza (Flu) and COVID-19 are both contagious respiratory illnesses, but they are caused by different viruses.",
+                "COVID-19 is caused by infection with a coronavirus named SARS-CoV-2, and flu is caused by infection with influenza viruses. You cannot tell the difference between flu and COVID-19 by symptoms alone because some of the symptoms are the same.",
+                "Some PCR tests can differentiate between flu and COVID-19 at the same time",
+                "it seems like you are talking about COVID,Symptoms might last a few days."
+
+
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "how are you",
+                "sup",
+                "How you doing"
+            ],
+            "responses": [
+                "All good..What about you?"
+            ]
+        },
+        {
+            "tag": "Diabetes",
+            "patterns": [
+                "diabetes",
+                "increased urine output",
+                "excessive thirst",
+                "slow healing wounds",
+                "increased urine",
+                "skin problems"
+            ],
+            "responses": [
+                "symptoms of diabetes can be similar in type 1 diabetes, typically diagnosed in children and teens, and type 2 diabetes, which most often occurs in adults,Endocrinology is the specialty of medicine that deals with hormone disturbances, and both endocrinologists and pediatric endocrinologists manage patients with diabetes. People with diabetes may also be treated by family medicine or internal medicine specialists ",
+                "These are the symptoms of diabetes, People with diabetes need to make healthy food choices, stay at a healthy weight, move more every day, and take their medicine even when they feel good. It’s a lot to do. It’s not easy, but it’s worth it!"
+
+
+            ]
+        },
+        {
+            "tag": "hypertension",
+            "patterns": [
+                "nosebleeds",
+                "hypertension",
+                "headaches",
+                "blurred vision"
+            ],
+            "responses": [
+                "High blood pressure is a common condition that affects the body's arteries. It's also called hypertension. If you have high blood pressure, the force of the blood pushing against the artery walls is consistently too high. The heart has to work harder to pump blood.",
+                "Most people with hypertension don’t feel any symptoms. Very high blood pressures can cause headaches, blurred vision, chest pain and other symptoms. Checking your blood pressure is the best way to know if you have high blood pressure. If hypertension isn’t treated, it can cause other health conditions like kidney disease, heart disease and stroke."
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+
+                "you are dumb",
+                "shut up",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts :(",
+                "that makes me sad "
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you upto"
+            ],
+            "responses": [
+                "I m talking with you ^^ "
+            ]
+        },
+        {
+            "tag": "High Colesterol",
+            "patterns": [
+                "what do you know about high cholesterol",
+                "cholesterol",
+                "cholesterol symptoms"
+            ],
+            "responses": [
+                "With high cholesterol, you can develop fatty deposits in your blood vessels. Eventually, these deposits grow, making it difficult for enough blood to flow through your arteries. Sometimes, those deposits can break suddenly and form a clot that causes a heart attack or stroke.",
+                "High cholesterol can be inherited, but it's often the result of unhealthy lifestyle choices, which make it preventable and treatable. A healthy diet, regular exercise and sometimes medication can help reduce high cholesterol.and it has no symptoms a blood test is the only way to know if you have it"
+            ]
+        },
+
+        {
+            "tag": "Hepatitis",
+            "patterns": [
+                "fatigue",
+                "dark urine",
+                "pale stool",
+                "dark urine",
+                "loss of appetite",
+                "hepatitis"
+            ],
+            "responses": [
+                "there is a high chance of hepatitis,Hepatitis is an inflammation of the liver. Alcohol consumption, several health conditions, and some medications can all cause this condition.",
+                "If you are living with a chronic form of hepatitis, like hepatitis B and C, you may not show symptoms until the damage affects liver function. By contrast, people with acute hepatitis may present with symptoms shortly after contracting a hepatitis virus.",
+                "It is crucial to understand what is causing hepatitis in order to treat it correctly. Doctors will progress through a series of tests to accurately diagnose your condition.,Treatment options will vary by the type of hepatitis and whether the infection is acute or chronic."
+            ]
+        },
+        {
+            "tag": "Crohn's desease",
+            "patterns": [
+                "fever",
+                "rectal bleeding",
+                "constipation",
+                "abdominal pain",
+                "cramps",
+                "persistant diarrhea"
+            ],
+            "responses": [
+                "Crohn’s disease symptoms range from mild to severe, can change over time, and vary from person to person—depending on what part of the GI tract is inflamed.",
+                "Crohn’s desease can be progressive—meaning that over time, your symptoms can get worse. That’s why it’s important to always have open conversations about your symptoms with your doctor.",
+                "these are the symptoms of crohn s desease, Crohn's disease is a lifelong condition where parts of the digestive system become inflamed.It's one type of a condition called inflammatory bowel disease (IBD)."
+            ]
+        },
+{
+            "tag": "autism",
+            "patterns": [
+                "not responding to name",
+                "not showing facial expression",
+                "not sharing interests by the age of 15 months",
+                "not singing, dancing or acting by the age of 60 months",
+                "repeating words and phrases again and again",
+                "gets upset by minor changes",
+                "plays with toys the same way every day",
+                "delayed language skills",
+                "delayed learning skills",
+                "autism",
+                "autistic child"
+            ],
+            "responses": [
+                "Based on the description above, you may feel that your child should be evaluated for autism. If that's the case:Read a little more about the symptoms of autism to be sure that you're accurately understanding how autism differs from other developmental challenges.T",
+                "Autism is a complex developmental disorder that affects communication, social interaction, and behavior. It is important to understand that every child with autism is unique and has different needs.",
+                "To help an autistic child, it's important to understand their unique needs and behaviors. Communication can be a challenge, so clear and patient communication is key. Establishing a daily routine can also provide structure and predictability, which can be comforting for autistic children."
+
+            ]
+        },
+        {
+            "tag": "anemia",
+            "patterns": [
+                "pale skin",
+                "yellowish skin",
+                "weakness",
+                "cold hands",
+                "cold feet",
+                "fatigue",
+                "irregular heartbeats",
+                "cold hands and feet",
+                "dizziness",
+                "lightheadness"
+            ],
+            "responses": [
+                "Anemia is a condition in which you lack enough healthy red blood cells to carry adequate oxygen to your body's tissues. Having anemia, also referred to as low hemoglobin, can make you feel tired and weak.There are many forms of anemia, each with its own cause. Anemia can be temporary or long term and can range from mild to severe. In most cases, anemia has more than one cause. See your doctor if you suspect that you have anemia. It can be a warning sign of serious illness.",
+                "there is a chance that you have anemia, Anemia can be due to a condition present at birth (congenital) or to a condition you develop (acquired). Anemia occurs when your blood doesn't have enough red blood cells."
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+        {
+            "tag": "Heart Desease",
+            "patterns": [
+                "chest pain",
+                "chest tightness",
+                "chest pressure",
+                "shortness of breath",
+                "pain in the neck",
+                "numbness in the legs",
+                "blue skin",
+                "swollen legs"
+            ],
+            "responses": [
+                "there is a high chance of a heart desease,  call your health care provider right away. Don't wait to see if the symptoms go away or dismiss them as nothing.",
+                "these are the symptoms of a heart desease Heart disease often develops over time. You may have early signs or symptoms long before you have serious heart problems. Or, you may not realize you are developing heart disease. The warning signs of heart disease may not be obvious. Also, not every person has the same symptoms."
+            ]
+        },
+        {
+            "tag": "migraine",
+            "patterns": [
+                "intense headache on one side of the head",
+                "feeling sick",
+                "sensitivity to light"
+            ],
+            "responses": [
+                "Migraine is a type of headache characterized by recurrent attacks of moderate to severe throbbing and pulsating pain on one side of the head,Small amounts of caffeine may help relieve symptoms during a migraine's early stages.Drug therapy for migraine is divided into acute and preventive treatment.",
+                "these are the symptoms of Migraine, Always talk to your provider before starting anything. Practice the right sleep-wake cycle,Eat your meals at the right time,Learn to manage stress,Avoid strenuous activities including intense exercises"
+            ]
+        },
+        {
+            "tag": "broken bones",
+            "patterns": [
+                "what are the first aids for a broken leg or arm",
+                "how to deal with a broken leg",
+                "broken",
+                "bones"
+            ],
+            "responses": [
+                "A broken bone happens when one of your bones becomes cracked or broken into multiple pieces. It’s also known as a fracture. It can result from a sports injury, accident, or violent trauma.To provide first aid care for a broken bone you should:stop any bleeding,immobilize the injured area and apply cold,then get professional help"
+            ]
+        },
+        {
+            "tag": "sun stroke",
+            "patterns": [
+                "red sore skin",
+                "sunburned skin",
+                "throbbing headaches",
+                " dizziness",
+                "muscle weakness"
+            ],
+            "responses": [
+                "True sun stroke is a medical emergency, so you need to seek medical attention as soon as possible, Whilst doing that, move to a cool shady area, remove unnecessary clothing. Use fans or sponges with cool water to encourage temperature reduction and stop any exercise immediately."
+            ]
+        },
+        {
+            "tag": "malaria",
+            "patterns": [
+                "high fever",
+                "shaking chills",
+                "vomiting",
+                "abdominal pain",
+                "muscle pain",
+                "impaired consciousness",
+                "rapid breathing"
+            ],
+            "responses": [
+                "these are the common symptoms of malaria. If you or someone you know is exhibiting symptoms of Malaria, seek medical attention immediately."
+
+            ]
+        },
+         {
+            "tag": "Influenza",
+            "patterns": [
+                "fever",
+                "aching muscles",
+                "chills and sweats",
+                "persistant cough",
+                "runny nose"
+            ],
+            "responses": [
+                "it seems like you have a flue "
+            ]
+        },
+        {
+            "tag": "kidney stones",
+            "patterns": [
+                "fever",
+                "blood in urine",
+                "pain in the abdomen",
+                "pain in lower back",
+                "difficulty in urination"
+            ],
+            "responses": [
+                "Kidney stones can cause severe pain that comes and goes. The pain can be felt in the side of your tummy (abdomen) or groin2. Other symptoms include nausea, vomiting, fever, chills and blood in your urine1. Larger kidney stones can cause more severe symptoms such as urine infection and blocked ureter and kidney infection.If you are experiencing any of these symptoms, it is important to see a doctor immediately. They will be able to diagnose you and recommend appropriate treatment options."
+            ]
+        }
+    ]
+}
